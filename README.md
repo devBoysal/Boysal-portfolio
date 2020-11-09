@@ -29,7 +29,7 @@ https://www.11ty.dev/docs/getting-started/
 ~ $ npx eleventy
 ```
 
-## 5. Serve a local host and listen for changes live.
+## 5. Serve a local host and listen for live changes.
 ```bash
 ~ $ npx eleventy --serve
 ```
@@ -48,3 +48,12 @@ _site
 ### Config Netlify
 - Navigate to Netlify and add a new site
 - Choose Repo for Netlify to host
+- Observe your new domain hosted by netlify
+
+## Adding layouts
+- Add a templating language of your choice. I've used nunjucks.
+- Place a directory at root level as `_includes`
+- Add a document labelled as `.njk`
+```
+default-layout.njk
+```
