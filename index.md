@@ -1,6 +1,6 @@
 ---
 layout: default-layout.njk
-title: My homepage
+title: Omer Boysal | Web Developer
 ---
 
 
