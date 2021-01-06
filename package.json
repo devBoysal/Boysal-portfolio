@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "node-sass --omit-source-map-url assets/sass/styles.scss assets/css/styles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
   },
   "repository": {
     "type": "git",
@@ -18,7 +21,10 @@
   },
   "homepage": "https://github.com/devBoysal/Boysal-portfolio#readme",
   "dependencies": {
-    "@11ty/eleventy": "^0.11.1",
-    "bulma": "^0.9.1"
+    "@11ty/eleventy": "^0.11.1"
+  },
+  "devDependencies": {
+    "bulma": "^0.9.1",
+    "node-sass": "^5.0.0"
   }
 }

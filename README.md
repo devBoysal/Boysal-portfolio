@@ -5,18 +5,18 @@ https://www.11ty.dev/docs/getting-started/
 - Name and set up any options such as licensing or .gitignore files
 - Navigate to desired file save location in terminal and clone repo
 ```bash
-~ $ git clone "https://github.com/devBoysal/Boysal-portfolio.git"
+$ git clone "https://github.com/devBoysal/Boysal-portfolio.git"
 ```
 - Generate Json file and answer with default setup questions
 ```bash
-~ $ npm init -y
+$ npm init -y
 ```
 (-y will answer yes to all setup question as a default)
 
 ## 2. Install 11ty
 - Install 11ty package
 ```bash
-~ $ npm i @11ty/eleventy
+$ npm i @11ty/eleventy
 ```
 (i = install)
 
@@ -26,12 +26,12 @@ https://www.11ty.dev/docs/getting-started/
 ## 4. Run and initialise 11ty
 - Start 11ty and begin to generate static site content
 ```bash
-~ $ npx eleventy
+$ npx eleventy
 ```
 
 ## 5. Serve a local host and listen for live changes
 ```bash
-~ $ npx eleventy --serve
+$ npx eleventy --serve
 ```
 
 ## 6. Exclude generated content from commit
@@ -56,4 +56,9 @@ _site
 - Add a document labelled as `.njk`
 ```
 default-layout.njk
+```
+
+## Adding any other dependecies
+```
+npm install bulma
 ```
