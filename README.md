@@ -60,5 +60,25 @@ default-layout.njk
 
 ## Adding any other dependecies
 ```
-npm install bulma
+$ npm install node-sass --save-dev
+$ npm install bulma --save-dev
+```
+- This adds sass and bulma as dev dependencies
+- Create a `sass` directory under assets and place a file in that titled `styles.scss`
+- Then place text below as content within `styles.scss`
+```
+@charset "utf-8";
+@import "../node_modules/bulma/bulma.sass";
+```
+- Place text below in `default-layout.njk`
+``` html
+<link rel="stylesheet" href="css/styles.css">
+```
+- Make sure below text exists in `package.json`
+```js
+"scripts": {
+  "css-build": "node-sass --omit-source-map-url assets/sass/styles.scss assets/css/styles.css",
+  "css-watch": "npm run css-build -- --watch",
+  "start": "npm run css-watch"
+}
 ```
