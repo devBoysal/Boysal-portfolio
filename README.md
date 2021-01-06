@@ -29,7 +29,7 @@ https://www.11ty.dev/docs/getting-started/
 ~ $ npx eleventy
 ```
 
-## 5. Serve a local host and listen for live changes.
+## 5. Serve a local host and listen for live changes
 ```bash
 ~ $ npx eleventy --serve
 ```
