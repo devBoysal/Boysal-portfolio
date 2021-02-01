@@ -1,6 +1,6 @@
 ---
 layout: default-layout.njk
-title: Omer Boysal | Web Developer
+title: Omer Boysal | Frontend Developer
 ---
 
 

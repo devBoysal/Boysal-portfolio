@@ -2,7 +2,7 @@
   "name": "boysal-portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "assets/sass/styles.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "css-build": "node-sass --omit-source-map-url assets/sass/styles.scss assets/css/styles.css",
