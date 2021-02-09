@@ -1,6 +1,6 @@
 ---
 layout: default-layout.njk
-title: About the site
+title: Omer Boysal | About
 ---
 
 >blockquote can go here
