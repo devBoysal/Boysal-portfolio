@@ -109,5 +109,5 @@ To do this simply write:
 This will create a `css-build` command which will run and compile the scss file into _site
 - any time you make changes to `styles.scss` in 'assets' make sure to run: `npm run css-build`
 This will build sass into `css` directory which will then be built into _site by 11ty when you run:
-- `npx eleventy --serve` or:
+- `npx eleventy --serve` or;
 - `npx eleventy`
