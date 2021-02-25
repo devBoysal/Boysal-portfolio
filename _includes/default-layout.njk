@@ -1,63 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{title}}</title>
-    <meta name="description" content="Portfolio Website">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/png"/>
-    <link rel="stylesheet" href="../assets/css/styles.css">
-  </head>
-  <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a href="/" class="navbar-item">Home</a>
-        <a href="/about" class="navbar-item">About</a>
-      </div>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{{title}}</title>
+        <meta name="description" content="Portfolio Website">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/png"/>
+        <link rel="stylesheet" href="../assets/css/styles.css">
+    </head>
+    <body>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a href="/" class="navbar-item">Home</a>
+                <a href="/about" class="navbar-item">About</a>
+                <a href="/projects" class="navbar-item">Projects</a>
+                <a href="/contact" class="navbar-item">Contact</a>
+            </div>
+        </nav>
     </nav>
-  </nav>
 
-
-  <h1>Hello!</h1>
-  <img src="/assets/img/omerboysal.png" width="500px">
-  <h2>I'm Ömer</h2>
-  <p class="is-uppercase">and i'm passionate about building web solutions</p>
-  {{title}}
-  {{content | safe}}
-
-  <h1 class="title">Bulma</h1>
-
-  <p class="subtitle">
-    Modern CSS framework based on
-    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Flexbox</a>
-  </p>
-
-  <div class="field">
-    <div class="control">
-      <input class="input" type="text" placeholder="Input">
-    </div>
-  </div>
-
-  <div class="field">
-    <p class="control">
-      <span class="select">
-        <select>
-          <option>Select dropdown</option>
-        </select>
-      </span>
-    </p>
-  </div>
-
-  <div class="buttons">
-    <a class="button is-primary">Primary</a>
-    <a class="button is-link">Link</a>
-  </div>
-  <div class="columns is-centered">
-    <div class="column">Column 1</div>
-    <div class="column">Column 2</div>
-    <div class="column">Column 3</div>
-    <div class="column">Column 4</div>
-  </div>
+    <h1>Hello!</h1>
+    <img id="hero-img" src="/assets/img/omerboysal.png">
+    <h2>I'm Ömer</h2>
+    <p class="is-uppercase">and i'm passionate about building web solutions</p>
+    {{title}}
+    {{content | safe}}
 </body>
 </html>

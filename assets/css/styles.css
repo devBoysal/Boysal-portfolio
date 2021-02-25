@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+img {
+  width: 250px;
+  height: auto; }
+
 /* Bulma Utilities */
 @keyframes spinAround {
   from {
